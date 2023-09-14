@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-name: <+service.name><+serviceVariables.name>
+name: hello<+service.name><+serviceVariables.name>
 replicaCount: 2
 namespace: <+infra.namespace>
 createNamespace: false
