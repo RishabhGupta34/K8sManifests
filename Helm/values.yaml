@@ -4,7 +4,7 @@
 
 name: <+service.name><+serviceVariables.name>
 replicaCount: 2
-
+createNamespace: true
 namespace: <+infra.namespace>
 
 image: nginx:latest
