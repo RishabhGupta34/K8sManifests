@@ -5,7 +5,7 @@
 name: hello<+service.name><+serviceVariables.name>
 replicaCount: 2
 namespace: <+infra.namespace>
-createNamespace: false
+createNamespace: true
 image: nginx:latest
 pullPolicy: Always
 dockercfg: 
